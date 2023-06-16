@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.header {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.header h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #f8f9fa;
+}
+.header h1 span,
+.header p span {
+  color: #37b24d;
+}
+.header p {
+  font-size: 2rem;
+  color: #f8f9fa;
+}
+.container {
+  background: linear-gradient(to top left, #343a40, #212529);
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 3rem;
+}
+.calculator {
+  /* height: 100vh; */
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+form {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 1.5rem;
+  border-radius: 0.4rem;
+  background: linear-gradient(#37b24d, #5b548a);
+}
+.heading {
+  text-align: center;
+  color: aliceblue;
+}
+.result input {
+  width: 100%;
+  padding: 0.8rem;
+  outline: none;
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+  background-color: #f1f3f5;
+}
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+.buttons input {
+  padding: 0.8rem;
+  flex: 1;
+  font-size: 1.6rem;
+  color: crimson;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 0.4rem;
+  background: linear-gradient(to top left, #343a40, #212529);
+  cursor: pointer;
+}
