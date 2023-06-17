@@ -24,14 +24,12 @@
 }
 .container {
   background: linear-gradient(to top left, #343a40, #212529);
-  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 3rem;
 }
 .calculator {
-  /* height: 100vh; */
+  height: 100vh;
   display: grid;
   justify-content: center;
   align-content: center;
@@ -54,6 +52,7 @@ form {
   padding: 0.8rem;
   outline: none;
   border: none;
+  text-align: right;
   border-radius: 0.4rem;
   font-size: 1.6rem;
   background-color: #f1f3f5;
